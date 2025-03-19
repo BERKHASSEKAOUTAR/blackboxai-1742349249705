@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover expert travel tips and advice for your next adventure. Learn about packing, budgeting, safety, and more!">
+    <meta name="keywords" content="travel tips, travel advice, travel guide, international travel, budget travel, solo travel">
+    <title>Travel Tips - Expert Advice for Your Next Adventure</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header/Navigation -->
+    <header class="fixed w-full bg-white shadow-md z-50">
+        <nav class="container mx-auto px-6 py-3">
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-blue-600">
+                    <i class="fas fa-plane-departure mr-2"></i>Travel Tips
+                </a>
+                <div class="hidden md:flex space-x-8">
+                    <a href="#" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                    <a href="#articles" class="text-gray-600 hover:text-blue-600 transition">Articles</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+                <button class="md:hidden text-gray-600" id="mobile-menu-button">
+                    <i class="fas fa-bars text-2xl"></i>
+                </button>
+            </div>
+            <!-- Mobile Menu -->
+            <div class="md:hidden hidden" id="mobile-menu">
+                <div class="flex flex-col space-y-4 mt-4 pb-4">
+                    <a href="#" class="text-gray-600 hover:text-blue-600 transition">Home</a>
+                    <a href="#articles" class="text-gray-600 hover:text-blue-600 transition">Articles</a>
+                    <a href="#about" class="text-gray-600 hover:text-blue-600 transition">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-blue-600 transition">Contact</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-16 bg-gradient-to-r from-blue-500 to-blue-700 h-[600px]">
+        <div class="container mx-auto px-6 h-full flex items-center">
+            <div class="text-white max-w-2xl">
+                <h1 class="text-5xl font-bold mb-6">Explore the World with Confidence</h1>
+                <p class="text-xl mb-8">Discover expert travel tips and advice to make your next adventure unforgettable. From packing essentials to cultural insights, we've got you covered.</p>
+                <a href="#articles" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">
+                    Start Reading
+                </a>
+            </div>
+        </div>
+        <div class="absolute bottom-0 left-0 right-0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#f9fafb" fill-opacity="1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Articles Section -->
+    <section id="articles" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12">Latest Travel Tips</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- DMC Morocco Article -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3889843/pexels-photo-3889843.jpeg" alt="Beautiful Moroccan architecture" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Expert DMC Tips for Traveling in Morocco</h3>
+                        <p class="text-gray-600 mb-4">Discover insider tips and professional guidance for an authentic Moroccan experience with trusted DMC services.</p>
+                        <a href="articles/article11.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+                <!-- Article 1 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/1282315/pexels-photo-1282315.jpeg" alt="Packing suitcase" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Essential Packing Tips for International Travel</h3>
+                        <p class="text-gray-600 mb-4">Master the art of packing with our comprehensive guide to essential items and space-saving techniques.</p>
+                        <a href="articles/article1.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 2 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="Budget travel planning" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Budget Travel Hacks for Smart Travelers</h3>
+                        <p class="text-gray-600 mb-4">Learn how to make the most of your travel budget with these money-saving tips and tricks.</p>
+                        <a href="articles/article2.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 3 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/2422265/pexels-photo-2422265.jpeg" alt="Solo traveler" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Safety Tips for Solo Travelers</h3>
+                        <p class="text-gray-600 mb-4">Stay safe while exploring the world alone with these essential safety guidelines and precautions.</p>
+                        <a href="articles/article3.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 4 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/2007401/pexels-photo-2007401.jpeg" alt="Flight booking" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Best Time to Book Flights and Hotels</h3>
+                        <p class="text-gray-600 mb-4">Discover the optimal timing for booking your travel arrangements to get the best deals.</p>
+                        <a href="articles/article4.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 5 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg" alt="Cultural experience" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Cultural Etiquette Around the World</h3>
+                        <p class="text-gray-600 mb-4">Navigate different cultures with confidence by learning essential etiquette tips.</p>
+                        <a href="articles/article5.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 6 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/1671324/pexels-photo-1671324.jpeg" alt="Travel photography" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Travel Photography Tips for Beginners</h3>
+                        <p class="text-gray-600 mb-4">Capture stunning travel memories with these photography tips and techniques.</p>
+                        <a href="articles/article6.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 7 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg" alt="Sustainable travel" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Sustainable Travel Guidelines</h3>
+                        <p class="text-gray-600 mb-4">Learn how to travel responsibly and minimize your environmental impact.</p>
+                        <a href="articles/article7.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 8 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/5638/food-salad-restaurant-person.jpg" alt="Food safety" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Food Safety While Traveling</h3>
+                        <p class="text-gray-600 mb-4">Stay healthy while exploring local cuisines with these food safety guidelines.</p>
+                        <a href="articles/article8.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 9 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3943716/pexels-photo-3943716.jpeg" alt="Money management" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Managing Money During International Travel</h3>
+                        <p class="text-gray-600 mb-4">Smart tips for handling money, cards, and expenses while traveling abroad.</p>
+                        <a href="articles/article9.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 10 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/2833075/pexels-photo-2833075.jpeg" alt="Long-haul flight" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Tips for Long-Haul Flights</h3>
+                        <p class="text-gray-600 mb-4">Make your long-distance flights more comfortable with these expert tips.</p>
+                        <a href="articles/article10.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+
+                <!-- Article 11 -->
+                <article class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition">
+                    <img src="https://images.pexels.com/photos/3889843/pexels-photo-3889843.jpeg" alt="Beautiful Moroccan architecture" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-3">Expert DMC Tips for Traveling in Morocco</h3>
+                        <p class="text-gray-600 mb-4">Discover insider tips and professional guidance for an authentic Moroccan experience with trusted DMC services.</p>
+                        <a href="articles/article11.html" class="text-blue-600 hover:text-blue-800 font-semibold">Read More →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="bg-blue-600 py-20">
+        <div class="container mx-auto px-6">
+            <div class="max-w-2xl mx-auto text-center">
+                <h2 class="text-3xl font-bold text-white mb-8">Stay Updated with Travel Tips</h2>
+                <form class="flex flex-col md:flex-row gap-4">
+                    <input type="email" placeholder="Enter your email" class="flex-1 px-6 py-3 rounded-full focus:outline-none focus:ring-2 focus:ring-blue-400">
+                    <button type="submit" class="bg-white text-blue-600 px-8 py-3 rounded-full font-semibold hover:bg-blue-50 transition">
+                        Subscribe
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-12">
+        <div class="container mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Travel Tips</h3>
+                    <p class="text-gray-400">Your trusted source for travel advice and guidance.</p>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Home</a></li>
+                        <li><a href="#articles" class="text-gray-400 hover:text-white transition">Articles</a></li>
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition">About</a></li>
+                        <li><a href="#contact" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Follow Us</h4>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-white transition"><i class="fab fa-pinterest"></i></a>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact</h4>
+                    <p class="text-gray-400">Email: info@traveltips.com</p>
+                    <p class="text-gray-400">Phone: +1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center">
+                <p class="text-gray-400">&copy; 2024 Travel Tips. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
